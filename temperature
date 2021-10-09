@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter temperature in Celsius = ");
+		double temperature_Celsius = input.nextDouble();
+		double temperature_Fahrenheit = (9.0 / 5.0) * temperature_Celsius + 32;
+		System.out.println("Temperature in Fahrenheit is = " + temperature_Fahrenheit + " degrees");
+	}
+}

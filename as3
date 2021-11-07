@@ -16,3 +16,54 @@ public class Main {
 		}
 	}
 }
+
+______________________________
+
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		System.out.print("Please enter a month: ");	
+		Scanner input = new Scanner(System.in);
+		int month= input.nextInt();
+		switch (month) {
+		case 1:
+			System.out.print("January month has 31 daya");
+			break;
+		case 2:
+			System.out.print("February 28 days in common year & 29 days in leap year");
+			break;
+		case 3:
+			System.out.print("March month has 31 daya");
+			break;
+		case 4:
+			System.out.print("April month has 30 daya");
+			break;
+		case 5:
+			System.out.print("May month has 31 daya");
+			break;
+		case 6:
+			System.out.print("June month has 30 daya");
+			break;
+		case 7:
+			System.out.print("July month has 31 daya");
+			break;
+		case 8:
+			System.out.print("August month has 31 daya");
+			break;
+		case 9:
+			System.out.print("September month has 30 daya");
+			break;
+		case 10:
+			System.out.print("October month has 31 daya");
+			break;
+		case 11:
+			System.out.print("November month has 30 daya");
+			break;
+		case 12:
+			System.out.print("December month has 31 daya");
+			break;
+		default:
+			System.out.print("Please enter valid month");
+		}
+	}
+}

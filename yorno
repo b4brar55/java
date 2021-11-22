@@ -1,0 +1,46 @@
+import java.util.*;
+public class Main {
+	static void factorsAre(int calculateNumber,int total) {
+		for (int i = 1; i <= calculateNumber; i++) {
+			if (calculateNumber % i == 0) {
+				++total;
+				System.out.print(i + " ");
+			}
+		}
+		System.out.println("\nTotal factor are: " + total);
+	}
+	public static void main(String[] args) {
+		int total =0;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter the number for which you want  to calculate factors:");
+		int test1 = input.nextInt();
+		System.out.print("The factors are:");
+		factorsAre(test1,total);
+		System.out.println("\nDo you want to factor another number? (y/n) ");
+		Scanner stringInput = new Scanner(System.in);
+		String option = stringInput.nextLine();
+			if (option.equals("n")) {
+				System.out.print("Bye!");
+				System.exit(0);
+			}else if(option.matches("-?(0|[1-9]\\d*)")) {
+				System.out.print("Only: (y/n) \nBye!");
+				System.exit(0);
+			}
+		while (option.equals("y")) {
+			System.out.print("Please enter the number for which you want  to calculate factors:");
+			int calculateNumber = input.nextInt();
+			System.out.print("The factors are: ");
+			factorsAre(calculateNumber,total);
+			System.out.print("\nDo you want to factor another number? (y/n) \n");
+			String exit = stringInput.nextLine();
+			 if(exit.matches("-?(0|[1-9]\\d*)")) {
+				System.out.print("Only: (y/n) \nBye!");
+				System.exit(0);
+			}
+			if (exit.equals("n")) {
+				System.out.print("Bye..!");
+				System.exit(0);
+			}
+		}
+	}
+}

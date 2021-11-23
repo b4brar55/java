@@ -16,28 +16,28 @@ public class Main {
 		int test1 = input.nextInt();
 		System.out.print("The factors are:");
 		factorsAre(test1,total);
-		System.out.println("\nDo you want to factor another number? (y/n) ");
+		System.out.println("\nDo you want to factor another number? (yes/no) ");
 		Scanner stringInput = new Scanner(System.in);
 		String option = stringInput.nextLine();
-			if (option.equals("n")) {
+			if (option.equals("no")) {
 				System.out.print("Bye!");
 				System.exit(0);
 			}else if(option.matches("-?(0|[1-9]\\d*)")) {
-				System.out.print("Only: (y/n) \nBye!");
+				System.out.print("Only: (yes/no) \nBye!");
 				System.exit(0);
 			}
-		while (option.equals("y")) {
+		while (option.equals("yes")) {
 			System.out.print("Please enter the number for which you want  to calculate factors:");
 			int calculateNumber = input.nextInt();
 			System.out.print("The factors are: ");
 			factorsAre(calculateNumber,total);
-			System.out.print("\nDo you want to factor another number? (y/n) \n");
+			System.out.print("\nDo you want to factor another number? (yes/no) \n");
 			String exit = stringInput.nextLine();
 			 if(exit.matches("-?(0|[1-9]\\d*)")) {
-				System.out.print("Only: (y/n) \nBye!");
+				System.out.print("Only: (yes/no) \nBye!");
 				System.exit(0);
 			}
-			if (exit.equals("n")) {
+			if (exit.equals("no")) {
 				System.out.print("Bye..!");
 				System.exit(0);
 			}

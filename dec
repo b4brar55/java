@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+public class Main {
+
+	static void find( int number) {		  int i,fact=1;  
+
+  for(i=1;i<=number;i++){    
+
+      fact=fact*i;    
+
+  }    
+
+  System.out.println("Factorial of "+number+" is: "+fact);    
+
+ }  
+
+	
+
+	public static void main(String[] args) {
+
+		//find(4);
+
+		Scanner intInput = new Scanner(System.in);
+
+		System.out.println("Please enter the number for which you want to calculate factorial");
+
+		int sInt = intInput.nextInt();
+
+		find(sInt);
+
+		System.out.println("\nDo you want to factor another number? (y/n) ");
+
+		Scanner sChar= new Scanner(System.in);
+
+	char xChar = sChar.next().charAt(0);
+
+		if (xChar=='n'||xChar== 'N') {
+
+				System.out.print("Bye..!");
+
+				System.exit(0);
+
+			}
+
+	while (xChar =='y'||xChar=='Y') {
+
+			System.out.print("Please enter the number for which you want  to calculate factors:");
+
+			int calculateNum= intInput.nextInt();
+
+			System.out.print("The factorial is : ");
+
+			find(calculateNum);
+
+			System.out.print("\nDo you want to factor another number? (y/n) \n");
+
+				Scanner exCharHa= new Scanner(System.in);
+
+	char exitCh= exCharHa.next().charAt(0);
+
+			if (exitCh=='n'||exitCh== 'N') {
+
+				System.out.print("Bye..!");
+
+				System.exit(0);
+
+			}
+
+		}
+
+	}
+
+}

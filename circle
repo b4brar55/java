@@ -1,0 +1,21 @@
+class circle {
+	double pi = 3.14;
+	double radius;
+	circle(){		radius = 1;}
+	circle(double newRadius){
+		radius = newRadius;}
+	double getArea(){
+		return radius*radius*pi;	}
+	double getPerameter(){
+		return 2*radius*pi;	}
+}
+public class Main  {
+	public static void main(String[] args) {
+		circle circleArea1 = new circle();
+		System.out.println("The area of circle of radius  " + circleArea1.radius + "is "+ circleArea1.getArea());
+		circle circleArea2 = new circle(25);
+		System.out.println("The area of circle of radius  " +circleArea2.radius + "is "+ circleArea2.getArea());
+		circle circleArea3 = new circle(125);
+		System.out.println("The area of circle of radius  " +circleArea3.radius + "is "+ circleArea3.getArea());
+	}
+}

@@ -1,0 +1,137 @@
+1) Write a program in C++ to display the operation of pre and post increment and decrement. 
+Sample Output:
+Display the operation of pre and post increment and decrement :
+----------------------------------------------------
+The number is : 57
+After post increment by 1 the number is : 58
+After pre increment by 1 the number is : 59
+After increasing by 1 the number is : 60
+After post decrement by 1 the number is : 59
+After pre decrement by 1 the number is : 58
+After decreasing by 1 the number is : 57
+🔴-------------------------------------------------🔴
+2)Write a program in C++ to add two numbers accept through keyboard.
+Sample Output:
+Sum of two numbers :
+-------------------------
+Input 1st number : 25
+Input 2nd number : 39
+The sum of the numbers is : 64
+🔴-------------------------------------------------🔴
+3)Write a program in C++ to swap two numbers. 
+Sample Output:
+Swap two numbers :
+-----------------------
+Input 1st number : 25
+Input 2nd number : 39
+After swapping the 1st number is : 39
+After swapping the 2nd number is : 25
+🔴-------------------------------------------------🔴
+4) Write a program in C++ to find the Area and Perimeter of a Rectangle.
+Sample Output:
+Find the Area and Perimeter of a Rectangle :
+-------------------------------------------------
+Input the length of the rectangle : 10
+Input the width of the rectangle : 15
+The area of the rectangle is : 150
+The perimeter of the rectangle is : 50 
+🔴-------------------------------------------------🔴
+5) 23. Write a program in C++ that converts kilometers per hour to miles per hour.
+Sample Output:
+Convert kilometers per hour to miles per hour :
+----------------------------------------------------
+Input the distance in kilometer : 25
+The 25 Km./hr. means 15.5343 Miles/hr.
+🔴-------------------------------------------------🔴
+6)Write a program in C++ to compute the total and average of four numbers. Go to the editor
+Sample Output:
+Compute the total and average of four numbers :
+----------------------------------------------------
+Input 1st two numbers (separated by space) : 25 20
+Input last two numbers (separated by space) : 15 25
+The total of four numbers is : 85
+The average of four numbers is : 21.25 
+🔴-------------------------------------------------🔴
+7)Write a program in C++ to divide two numbers and print on the screen.
+Sample Output:
+Divide two numbers and print:
+----------------------------------
+The quotient of 30 and 10 is : 3
+🔴-------------------------------------------------🔴
+8)Write a program in C++ that takes a number as input and prints its multiplication table upto 10.
+Sample Output:
+Print the multiplication table of a number upto 10:
+--------------------------------------------------------
+Input a number: 5
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+🔴-------------------------------------------------🔴
+9)Write a language program in C++ which accepts the user's first and last name and print them in reverse order with a space between them. 
+Sample Output:
+Print the name in reverse where last name comes first:
+-----------------------------------------------------------
+Input First Name: Alexandra
+Input Last Name: Abramov
+Name in reverse is: Abramov Alexandra
+🔴-------------------------------------------------🔴
+10)Write a program in C++ which swap the values of two variables not using third variable. 
+Sample Output:
+Swap two numbers without using third variable:
+---------------------------------------------------
+Input 1st number : 25
+Input 2nd number : 20
+After swapping the 1st number is : 20
+After swapping the 2nd number is : 25
+🔴-------------------------------------------------🔴
+11)Write a program in C++ to enter length in centimeter and convert it into meter and kilometer.
+Sample Output:
+Convert centimeter into meter and kilometer :
+--------------------------------------------------
+Input the distance in centimeter : 250000
+The distance in meter is: 2500
+The distance in kilometer is: 2.5 
+🔴-------------------------------------------------🔴
+12)Write a program in C++ to find the first 10 natural numbers.
+Sample output:
+The natural numbers are:
+1 2 3 4 5 6 7 8 9 10
+🔴-------------------------------------------------🔴
+13)Write a program in C++ to find the sum of first 10 natural numbers. 
+Sample Output:
+Find the first 10 natural numbers:
+---------------------------------------
+The natural numbers are:
+1 2 3 4 5 6 7 8 9 10
+The sum of first 10 natural numbers: 55
+🔴-------------------------------------------------🔴
+14)Write a program in C++ to display n terms of natural number and their sum.
+Sample Output:
+Input a number of terms: 7
+The natural numbers upto 7th terms are:
+1 2 3 4 5 6 7
+The sum of the natural numbers is: 28
+🔴-------------------------------------------------🔴
+15) Write a program in C++ to find the factorial of a number.
+Sample output:
+Input a number to find the factorial: 5
+The factorial of the given number is: 120 
+🔴-------------------------------------------------🔴
+16)Write a program in C++ to find the Greatest Common Divisor (GCD) of two numbers.
+Sample Output:
+Input the first number: 25
+Input the second number: 15
+The Greatest Common Divisor is: 5
+🔴-------------------------------------------------🔴
+17)Write a program in C++ to find the sum of digits of a given number.
+Sample Output:
+Input a number: 1234
+The sum of digits of 1234 is: 10
+🔴-------------------------------------------------🔴

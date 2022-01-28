@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main {
+	static int missing(int arr[], int size) {
+		int v = size * (size + 1) / 2;
+		int sum = 0;
+		for(int i =0; i<size-1;i++){
+			sum = sum+arr[i];
+		}
+		return (v - sum);
+	}
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("How much testcase's do you want: ");
+		int testcase = input.nextInt();
+		while (testcase > 0) {
+			System.out.print("Input the size of array: ");
+			int size = input.nextInt();
+			testcase--;
+			int[] arr = new int[size-1];
+			for (int i = 0; i < size-1; i++) {
+				arr[i] = input.nextInt();
+			}
+			System.out.print(missing(arr, size));
+		}
+	}
+}

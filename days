@@ -1,0 +1,12 @@
+public class Minutes {
+	public static void main(String[] args) {
+		int minutes = 1000000000;
+		System.out.println("Minutes = " + minutes);
+		int years,days;
+		int hours = minutes/60;
+		days=hours/24;
+		years=days/365;
+		days= days%365;
+		System.out.println("There are "+ days + " days and " + years + " years");
+	}
+}

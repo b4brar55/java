@@ -1,0 +1,25 @@
+public class Rectangle {
+	double width = 1;
+	double height = 1;
+	public Rectangle() {
+	} 
+	public Rectangle(double newWidth, double newHeight) {
+		width = newWidth;
+		height = newHeight;
+	}
+	 public double getArea() {
+		return width * height;
+	} 
+	public double getPerimeter() {
+		return 2 * (width + height);
+	}
+}
+class TestRectangle {
+	public static void main(String[] args) {
+			Rectangle rectangle1 = new Rectangle(5, 50);
+		System.out.println("Area of rectangle1 is: " + rectangle1.getArea() + " & Perimeter of rectangle1 is: " + rectangle1.getPerimeter());
+		
+		Rectangle rectangle2 = new Rectangle(3.5, 35.9);
+		System.out.println("Area of rectangle2 is: " + rectangle2.getArea() + " & Perimeter of rectangle2 is: " + rectangle2.getPerimeter());
+	}
+}

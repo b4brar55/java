@@ -1,0 +1,30 @@
+public class Rectangle {
+	double width = 1;
+	double height = 1;
+	public Rectangle() {
+		System.out.println("Default no-arg constructor that create rectangle of specified width: "+ width + " and height: " + height + " = " +width*height);
+	} 
+	public Rectangle(double newWidth, double newHeight) {
+		width = newWidth;
+		height = newHeight;
+	}
+	 public double getArea() {
+		return width * height;
+	} 
+	public double getPerimeter() {
+		return 2 * (width + height);
+	}
+}
+class TestRectangle {
+	public static void main(String[] args) {
+			Rectangle rectangle1 = new Rectangle();
+			Rectangle rectangle2 = new Rectangle(6, 50);
+	System.out.println("\n----------------------\n");
+	
+		System.out.println("Width of 2nd rectangle is: " + rectangle2.width+" ,height is: " + rectangle2.height +", area is: "+ rectangle2.getArea()+ " permiter is: " + rectangle2.getPerimeter());
+	System.out.println("\n----------------------\n");
+	Rectangle rectangle3 = new Rectangle(3.5, 35.9);
+		System.out.println("Width of 3rd rectangle is: " + rectangle3.width+" ,height is: " + rectangle3.height +", area is: "+ rectangle3.getArea()+ " permiter is: " + rectangle3.getPerimeter());
+	
+	}
+}
